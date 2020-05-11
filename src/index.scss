@@ -1,0 +1,17 @@
+$font-stack: Helvetica, sans-serif;
+$primary-color: red;
+body {
+  font: 100% $font-stack;
+  color: $primary-color;
+  &:fullscreen {
+	background-color: pink; // propriété CSS peu supportée par les navigateurs qui devrait être auto-préfixée en mode production
+  }
+}
+
+#test{
+  width: 150px;
+  height: 150px;
+  border-radius:5px;
+  background-color: $primary-color;
+}
+
