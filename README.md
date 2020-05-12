@@ -1,5 +1,5 @@
-# ConfigWebpack
-Ma configuration webpack 4 
+# Ma configuration webpack 4 
+
 
 npm install : pour les dependances
 
